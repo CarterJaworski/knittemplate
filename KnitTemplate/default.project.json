@@ -1,0 +1,39 @@
+{
+  "name": "Tower Defense",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Controllers": {
+        "$path": "src/controllers"
+      }
+    },
+
+    "ServerScriptService": {
+      "Main": {
+        "$path": "src/Main.server.lua"
+      },
+      "Services": {
+        "$path": "src/services"
+      }
+    },
+
+    "Workspace": {
+      "$properties": {
+        "FilteringEnabled": true
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Main": {
+          "$path": "src/Main.client.lua"
+        }
+      }
+    },
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    }
+  }
+}                       
